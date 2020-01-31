@@ -211,6 +211,8 @@
           1,
           1,
           1,
+          1,
+          1,
           null
         ]
       },
@@ -220,9 +222,43 @@
           null
         ]
       },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/shelters/visitor_can_update_shelter_information_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/shelters/visitor_sees_list_of_shelters_spec.rb": {
         "lines": [
           1,
+          null,
           1,
           1,
           1,
@@ -267,14 +303,9 @@
           null,
           null,
           1,
-          1,
+          3,
           null,
           null,
-          1,
-          null,
-          null,
-          null,
-          1,
           1,
           1,
           null,
@@ -282,6 +313,21 @@
           1,
           1,
           1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          2,
           null,
           null
         ]
@@ -307,6 +353,6 @@
         ]
       }
     },
-    "timestamp": 1580353165
+    "timestamp": 1580493829
   }
 }
