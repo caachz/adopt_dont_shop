@@ -7,3 +7,5 @@
   <p>Sex: <%= pet.sex %></p>
   <p>Shelter: <%= pet.shelter.name %></p>
 <% end %>
+
+<%= link_to 'Create Pet', "/shelters/#{params[:id]}/pets/new" %>
