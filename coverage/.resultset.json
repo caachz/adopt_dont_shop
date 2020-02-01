@@ -217,12 +217,46 @@
           null,
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/pets/visitor_can_see_pet_details_by_id_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -424,6 +458,10 @@
           1,
           2,
           null,
+          null,
+          1,
+          2,
+          null,
           null
         ]
       },
@@ -477,6 +515,6 @@
         ]
       }
     },
-    "timestamp": 1580584779
+    "timestamp": 1580586851
   }
 }

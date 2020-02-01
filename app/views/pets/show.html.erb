@@ -1,9 +1,7 @@
-<h1>Pets Available For Adoption From #{pet.shelter.name}</h1>
-
-<% @available_pets.each do |pet| %>
-  <%= image_tag("#{pet.image}", :size => "260x180") %>
-  <p>Name: <%= pet.name %></p>
-  <p>Age: <%= pet.age %></p>
-  <p>Sex: <%= pet.sex %></p>
-  <p>Shelter: <%= pet.shelter.name %></p>
-<% end %>
+<h1><%= @pet.name %></h1>
+<%= image_tag("#{@pet.image}", :size => "260x180") %>
+<p><%= @pet.name %></p>
+<p><%= @pet.age %></p>
+<p><%= @pet.sex %></p>
+<p><%= @pet.shelter.name %></p>
+<p><%= @pet.adoption_status %></p>
