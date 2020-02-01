@@ -214,12 +214,46 @@
           1,
           1,
           1,
+          null,
+          1,
           null
         ]
       },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/shelters/visitor_can_add_a_new_shelter_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -317,6 +351,46 @@
           null
         ]
       },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/models/shelter.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/models/pet.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/controllers/pets_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/controllers/shelters_controller.rb": {
         "lines": [
           1,
@@ -358,28 +432,8 @@
           null,
           null
         ]
-      },
-      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/models/shelter.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1580495390
+    "timestamp": 1580523190
   }
 }
