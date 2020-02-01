@@ -12,6 +12,7 @@ RSpec.describe "A visitor can add a new pet to a shelter from the shelter index 
     expect(page).to have_link("Create Pet")
 
     click_link("Create Pet")
+
     expect(current_path).to eq("/shelters/#{shelter1.id}/pets/new")
 
     fill_in "Image", with: "https://img.chewy.com/is/image/catalog/130621_MAIN._AC_SL1500_V1533919943_.jpg"
@@ -23,6 +24,7 @@ RSpec.describe "A visitor can add a new pet to a shelter from the shelter index 
     expect(page).to have_button("Submit")
 
     click_on "Submit"
+
     expect(current_path).to eq("/shelters/#{shelter1.id}/pets")
 
     expect(page).to have_content("Bubbles")
