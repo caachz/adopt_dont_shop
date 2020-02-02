@@ -3,7 +3,7 @@
 <p><%= @pet.name %></p>
 <p><%= @pet.age %></p>
 <p><%= @pet.sex %></p>
-<p><%= @pet.shelter.name %></p>
+<p><%= link_to "#{@pet.shelter.name}", "/shelters/#{@pet.shelter.id}" %></p>
 <p><%= @pet.adoption_status %></p>
 
 <%= link_to 'Update Pet', "/pets/#{params[:id]}/edit" %>
