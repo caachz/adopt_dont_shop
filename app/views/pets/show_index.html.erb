@@ -1,5 +1,7 @@
 <h1>Pets Available For Adoption</h1><br><br>
 
+<p>Total Pets: <%= @available_pets.length%>
+
 <% @available_pets.each do |pet| %>
   <%= image_tag("#{pet.image}", :size => "260x180") %><br>
   <p>Name: <%= link_to "#{pet.name}", "/pets/#{pet.id}" %></P><br>
