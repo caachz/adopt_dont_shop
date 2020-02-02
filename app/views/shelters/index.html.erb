@@ -2,6 +2,7 @@
 
 <% @shelters.each do |shelter| %>
   <h2><%= link_to "#{shelter.name}", "/shelters/#{shelter.id}" %></h2>
+  <%= link_to "Edit Shelter #{shelter.name}", "/shelters/#{shelter.id}/edit" %>
 <% end %>
 
 <%= link_to "New Shelter", "/shelters/new" %>

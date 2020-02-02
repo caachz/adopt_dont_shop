@@ -13,5 +13,21 @@ RSpec.describe "Shelter ID displays all shelter info", type: :feature do
     expect(page).to have_content(shelter1.city)
     expect(page).to have_content(shelter1.state)
     expect(page).to have_content(shelter1.zip)
+
+    visit "/shelters/#{shelter2.id}"
+
+    expect(page).to have_content(shelter2.name)
+    expect(page).to have_content(shelter2.address)
+    expect(page).to have_content(shelter2.city)
+    expect(page).to have_content(shelter2.state)
+    expect(page).to have_content(shelter2.zip)
+
+    visit "/shelters/#{shleter3.id}"
+
+    expect(page).to have_content(shleter3.name)
+    expect(page).to have_content(shleter3.address)
+    expect(page).to have_content(shleter3.city)
+    expect(page).to have_content(shleter3.state)
+    expect(page).to have_content(shleter3.zip)
   end
 end

@@ -25,5 +25,9 @@ RSpec.describe "A shelters information can be updated", type: :feature do
     expect(current_path).to eq("/shelters/#{shelter1.id}")
 
     expect(page).to have_content("Dogs love Cats")
+    expect(page).to have_content("58205 st")
+    expect(page).to have_content("New York")
+    expect(page).to have_content("New York")
+    expect(page).to have_content("48023")
   end
 end
