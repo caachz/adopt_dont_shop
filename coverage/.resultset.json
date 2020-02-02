@@ -457,6 +457,29 @@
           null
         ]
       },
+      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/shelters/visitor_can_delete_shelter_from_index_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/shelters/visitor_can_update_shelter_info_from_shelter_index_page_spec.rb": {
         "lines": [
           1,
@@ -671,7 +694,7 @@
         "lines": [
           1,
           1,
-          5,
+          7,
           null,
           null,
           1,
@@ -698,8 +721,8 @@
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
@@ -710,6 +733,6 @@
         ]
       }
     },
-    "timestamp": 1580606652
+    "timestamp": 1580607470
   }
 }
