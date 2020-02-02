@@ -1,13 +1,13 @@
-<h1>Pets Available For Adoption</h1>
+<h1>Pets Available For Adoption</h1><br><br>
 
 <% @available_pets.each do |pet| %>
-  <%= image_tag("#{pet.image}", :size => "260x180") %>
-  <p>Name: <%= link_to "#{pet.name}", "/pets/#{pet.id}" %></P>
-  <p>Age: <%= pet.age %></p>
-  <p>Sex: <%= pet.sex %></p>
-  <p>Shelter: <%= link_to "#{pet.shelter.name}", "/shelters/#{pet.shelter.id}" %></p>
-  <%= link_to "Edit Pet #{pet.name}", "/pets/#{pet.id}/edit" %>
-  <%= link_to "Delete Pet #{pet.name}", "/pets/#{pet.id}", method: :delete %>
+  <%= image_tag("#{pet.image}", :size => "260x180") %><br>
+  <p>Name: <%= link_to "#{pet.name}", "/pets/#{pet.id}" %></P><br>
+  <p>Age: <%= pet.age %></p><br>
+  <p>Sex: <%= pet.sex %></p><br>
+  <p>Shelter: <%= link_to "#{pet.shelter.name}", "/shelters/#{pet.shelter.id}" %></p><br>
+  <%= link_to "Edit Pet #{pet.name}", "/pets/#{pet.id}/edit" %><br>
+  <%= link_to "Delete Pet #{pet.name}", "/pets/#{pet.id}", method: :delete %><br>
 <% end %>
 
-<br/><br/><%= link_to 'Create Pet', "/shelters/#{params[:id]}/pets/new" %>
+<br/><br/><%= link_to 'Create Pet', "/shelters/#{params[:id]}/pets/new" %><br>
