@@ -10,6 +10,6 @@ RSpec.describe "A visitor can see the total pet count at the top of every shelte
 
     visit "shelters/#{shelter1.id}/pets"
 
-    page.body.should =~ /abbey.*sadie.*snickers/
+    expect(page).to have_content("3")
   end
 end

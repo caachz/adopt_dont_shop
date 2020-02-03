@@ -698,21 +698,6 @@
           null
         ]
       },
-      "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/pets/visitor_sees_pets_sorted_by_adoption_status_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/cassieachzenick/turing/mod2/projects/adopt-dont-shop-solo/adopt_dont_shop/spec/features/pets/visitor_sees_total_pets_count_on_shelter_pets_index_page_spec.rb": {
         "lines": [
           1,
@@ -1280,6 +1265,6 @@
         ]
       }
     },
-    "timestamp": 1580683874
+    "timestamp": 1580688683
   }
 }
